@@ -4,11 +4,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ViewModels\AddEventCategoryViewModelcs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ViewModels\AddEventCategoryViewModelcs" />
+  </ItemGroup>
+
 
 
   <ItemGroup>
     <Folder Include="Views\Events\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 
